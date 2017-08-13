@@ -1,5 +1,6 @@
 <?php
     namespace Stone\Redis;
+    use \Stone\Configuration;
     
     class Client
     {
