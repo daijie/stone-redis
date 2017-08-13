@@ -1,0 +1,20 @@
+{
+    "name": "nature/stone-redis",
+    "description": "Redis Support for Stone",
+    "type": "library",
+    "require": {
+        "predis/predis": "^1.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Stone\\Redis\\": "src/"
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dai Jie",
+            "email": "daijie@php.net"
+        }
+    ]
+}
